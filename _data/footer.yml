@@ -1,0 +1,14 @@
+- links:
+  - name: Services
+    link: /services/
+  - name: Blog
+    link: /blog/
+  - name: About
+    link: /about/
+  - name: Contact
+    link: /contact/
+- links:
+    - name: LinkedIn
+      link: 'https://www.linkedin.com/company/intutmi/'
+      social_icon: LinkedIn
+      new_window: true
