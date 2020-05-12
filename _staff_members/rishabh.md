@@ -1,7 +1,7 @@
 ---
 name: Rishabh Banga
-position: CTO
-image_path: /images/cto.jpg
+position: Co-Founder / Tech Lead
+image_path: /images/rishabh.jpg
 linkedin: rishabhbanga
 blurb: Rishabh likes to travel and has visited over 50 countries.
 ---
