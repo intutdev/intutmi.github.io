@@ -1,74 +1,57 @@
 ---
 title: Services
-heading: Find the perfect service for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
-pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
+heading: Customised Service As Per Your Brand Requirements
+description:
+services_table:
+  - name: SPONSOR INSIGHTS
+    color: "#c54848"
     features:
-      - text: $25 per month
+      - text: Find sponsorship deals spread across sports leagues, music/food festivals and other Sports/Non Sports events spread across the globe
         highlight: true
-      - text: Up to 5 users
-        highlight: false
-      - text: Basic lead scoring
-        highlight: false
-      - text: CRM
-        highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
-        highlight: false
+      - text: Use them to analyse the market and predict the future growth trend
+        highlight: true
     call_to_action:
-      link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
+      link: mailto:contact@intutmi.com?subject=Sponsorship%20Deal%20Database%20Inquiry&body=An%20inquiry%20has%20been%20made%20for%20sponsorship%20deals
+      text: Get in Touch
+  - name: FANS INSIGHT
     color: "#4a4a4a"
     features:
-      - text: $99 per month
+      - text: A primary information tank updated every 3 months, that can help us to gauge genuine change in fan’s perception.
         highlight: true
-      - text: Everything in Basic
-        highlight: false
-      - text: Up to 25 users
-        highlight: false
-      - text: Advanced lead scoring
-        highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
-        highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
+      link: mailto:contact@intutmi.com?subject=FANS%20INSIGHT%20-%20PRIMARY&body=An%20inquiry%20has%20been%20made%20for%20the%20fans%20insight%20database
+      text: Get in Touch
+  - name: BRAND MONITOR
+    color: "#5f3e3e"
     features:
-      - text: $299 per month
+      - text: Evaluating brand presence on all major mediums (Print, Online Forums, Social Media, Review Sites, Broadcast Media) including real time brand exposure in events – Sports/Entertainment
         highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
     call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+      link: mailto:contact@intutmi.com?subject=Brand%20Monitor%20Inquiry
+      text: Get in Touch
+  - name: SOCIAL CLIMATE
+    color: "#703b17"
+    features:
+      - text: Analyzing Social Media handles and providing trends related to fan’s perception of brand popularity
+        highlight: true
+    call_to_action:
+      link: mailto:contact@intutmi.com?subject=Social%20Climate%20Inquiry
+      text: Get in Touch
+  - name: INFLUENCER PITCH
+    color: "#1b4515"
+    features:
+      - text: We help brands get in touch with influencers with right audience fit for them. We understand not every influencer is fit for your brand image. We make sure you get the right match for your brand
+        highlight: true
+    call_to_action:
+      link: mailto:contact@intutmi.com?subject=Inquiry%20for%20Influencer
+      text: Get in Touch
+
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+  - question: Couldn't find what you were looking for?
+    answer: Get in touch with us at <a href="#">contact@intutmi.com</a> and let's make it happen!
 ---
 <div class="plans">
-	{% for plan in page.pricing_table %}
+	{% for plan in page.services_table %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
 				<h3>{{ plan.name }}</h3>
@@ -85,7 +68,7 @@ faq:
 </div>
 
 {% if page.faq %}
-	<h2>Pricing FAQ</h2>
+	<h2>Services FAQ</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
