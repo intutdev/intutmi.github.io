@@ -2,74 +2,64 @@
 title: Services
 heading: Customised Service As Per Your Brand Requirements
 description:
-pricing_table:
+services_table:
   - name: SPONSOR INSIGHTS
-    color: '#c54848'
+    color: "#c54848"
     features:
-      - text: >-
-          Find sponsorship deals spread across sports leagues, music/food
-          festivals and other Sports/Non Sports events spread across the globe.
-
-          Use them to analyse the market and predict the future growth trend
+      - text: Find sponsorship deals for Sports & Entertainment events
+        highlight: true
+      - text: To analyse the market and predict the future growth trend
         highlight: true
     call_to_action:
-      link: >-
-        mailto:contact@intutmi.com?subject=Sponsorship%20Deal%20Database%20Inquiry&body=An%20inquiry%20has%20been%20made%20for%20sponsorship%20deals
+      link: mailto:contact@intutmi.com?subject=Sponsorship%20Deal%20Database%20Inquiry&body=An%20inquiry%20has%20been%20made%20for%20sponsorship%20deals
       text: Get in Touch
   - name: FANS INSIGHT
-    color: '#4a4a4a'
+    color: "#4a4a4a"
     features:
-      - text: >-
-          A primary information tank updated every 3 months, that can help us to
-          gauge genuine change in fan’s perception.
+      - text: Primary information tank updated every 3 months
+        highlight: true
+      - text: To gauge genuine change in fan’s perception.
         highlight: true
     call_to_action:
-      link: >-
-        mailto:contact@intutmi.com?subject=FANS%20INSIGHT%20-%20PRIMARY&body=An%20inquiry%20has%20been%20made%20for%20the%20fans%20insight%20database
+      link: mailto:contact@intutmi.com?subject=FANS%20INSIGHT%20-%20PRIMARY&body=An%20inquiry%20has%20been%20made%20for%20the%20fans%20insight%20database
       text: Get in Touch
   - name: BRAND MONITOR
-    color: '#5f3e3e'
+    color: "#5f3e3e"
     features:
-      - text: >-
-          Evaluating brand presence on all major mediums (Print, Online Forums,
-          Social Media, Review Sites, Broadcast Media) including real time brand
-          exposure in events – Sports/Entertainment
+      - text: Information database of major mediums including brand exposure
+        highlight: true
+      - text: To evaluate brand presence real time!
         highlight: true
     call_to_action:
-      link: 'mailto:contact@intutmi.com?subject=Brand%20Monitor%20Inquiry'
+      link: mailto:contact@intutmi.com?subject=Brand%20Monitor%20Inquiry
       text: Get in Touch
   - name: SOCIAL CLIMATE
-    color: '#703b17'
+    color: "#703b17"
     features:
-      - text: >-
-          Analyzing Social Media handles and providing trends related  to fan’s
-          perception of brand popularity.
+      - text: Analyzing Social Media handles and providing trends
+        highlight: true
+      - text: To understand fan’s perception of brand popularity
         highlight: true
     call_to_action:
-      link: 'mailto:contact@intutmi.com?subject=Social%20Climate%20Inquiry'
-      text: Get InTouch
+      link: mailto:contact@intutmi.com?subject=Social%20Climate%20Inquiry
+      text: Get in Touch
   - name: INFLUENCER PITCH
-    color: '#1b4515'
+    color: "#1b4515"
     features:
-      - text: >-
-          We help brands get in touch with influencers with right audience fit
-          for them. We understand not every influencer is fit for your brand
-          image. We make sure you get the right match for your brand
+      - text: Get in touch with influencers with then right audience fit.
+        highlight: true
+      - text: To ensure your brand gets the right person for the job!
         highlight: true
     call_to_action:
-      link: 'mailto:contact@intutmi.com?subject=Inquiry%20for%20Influencer'
-      text: Ge in Touch
-faq:
-  - question: Want more services?
-    answer: >-
-      Contact us for any further questions at <a
-      href="#">contact@intutmi.com</a>.
-  - question:
-    answer:
----
+      link: mailto:contact@intutmi.com?subject=Inquiry%20for%20Influencer
+      text: Get in Touch
 
+faq:
+  - question: Couldn't find what you were looking for?
+    answer: Get in touch with us at <a href="#">contact@intutmi.com</a> and let's make it happen!
+---
 <div class="plans">
-	{% for plan in page.pricing_table %}
+	{% for plan in page.services_table %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
 				<h3>{{ plan.name }}</h3>
@@ -77,7 +67,6 @@ faq:
 			{% for feature in plan.features %}
 				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
 			{% endfor %}
-
 			{% if plan.call_to_action %}
 				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
 			{% endif %}
@@ -86,7 +75,7 @@ faq:
 </div>
 
 {% if page.faq %}
-	<h2>Pricing FAQ</h2>
+	<h2>Services FAQ</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
