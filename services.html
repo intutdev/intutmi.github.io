@@ -6,9 +6,9 @@ services_table:
   - name: SPONSOR INSIGHTS
     color: "#c54848"
     features:
-      - text: Find sponsorship deals spread across sports leagues, music/food festivals and other Sports/Non Sports events spread across the globe
+      - text: Find sponsorship deals across the globe
         highlight: true
-      - text: Use them to analyse the market and predict the future growth trend
+      - text: To analyse the market and predict the future growth trend
         highlight: true
     call_to_action:
       link: mailto:contact@intutmi.com?subject=Sponsorship%20Deal%20Database%20Inquiry&body=An%20inquiry%20has%20been%20made%20for%20sponsorship%20deals
@@ -16,7 +16,9 @@ services_table:
   - name: FANS INSIGHT
     color: "#4a4a4a"
     features:
-      - text: A primary information tank updated every 3 months, that can help us to gauge genuine change in fan’s perception.
+      - text: Primary information tank updated every 3 months
+        highlight: true
+      - text: To gauge genuine change in fan’s perception.
         highlight: true
     call_to_action:
       link: mailto:contact@intutmi.com?subject=FANS%20INSIGHT%20-%20PRIMARY&body=An%20inquiry%20has%20been%20made%20for%20the%20fans%20insight%20database
@@ -24,7 +26,9 @@ services_table:
   - name: BRAND MONITOR
     color: "#5f3e3e"
     features:
-      - text: Evaluating brand presence on all major mediums (Print, Online Forums, Social Media, Review Sites, Broadcast Media) including real time brand exposure in events – Sports/Entertainment
+      - text: Information database of major mediums including brand exposure
+        highlight: true
+      - text: To evaluate brand presence real time!
         highlight: true
     call_to_action:
       link: mailto:contact@intutmi.com?subject=Brand%20Monitor%20Inquiry
@@ -32,7 +36,9 @@ services_table:
   - name: SOCIAL CLIMATE
     color: "#703b17"
     features:
-      - text: Analyzing Social Media handles and providing trends related to fan’s perception of brand popularity
+      - text: Analyzing Social Media handles and providing trends
+        highlight: true
+      - text: To understand fan’s perception of brand popularity
         highlight: true
     call_to_action:
       link: mailto:contact@intutmi.com?subject=Social%20Climate%20Inquiry
@@ -40,7 +46,9 @@ services_table:
   - name: INFLUENCER PITCH
     color: "#1b4515"
     features:
-      - text: We help brands get in touch with influencers with right audience fit for them. We understand not every influencer is fit for your brand image. We make sure you get the right match for your brand
+      - text: Get in touch with influencers with then right audience fit.
+        highlight: true
+      - text: To ensure your brand gets the right person for the job!
         highlight: true
     call_to_action:
       link: mailto:contact@intutmi.com?subject=Inquiry%20for%20Influencer
@@ -59,7 +67,6 @@ faq:
 			{% for feature in plan.features %}
 				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
 			{% endfor %}
-
 			{% if plan.call_to_action %}
 				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
 			{% endif %}
