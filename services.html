@@ -55,8 +55,10 @@ services_table:
       text: Get in Touch
 
 faq:
+  - question: Do you offer pricing for nonprofit organizations or startups?
+    answer: Yes! <a href="#">Drop us a message</a> and we'll set you up on our nonprofit pricing.
   - question: Couldn't find what you were looking for?
-    answer: Get in touch with us at <a href="#">contact@intutmi.com</a> and let's make it happen!
+    answer: Get in touch with us at <a href="mailto:contact@intutmi.com?subject=Pricing%20for%20Nonprofit%20or%20Startups">contact@intutmi.com</a> and let's make it happen!
 ---
 <div class="plans">
 	{% for plan in page.services_table %}
@@ -75,7 +77,7 @@ faq:
 </div>
 
 {% if page.faq %}
-	<h2>Services FAQ</h2>
+	<h2>Frequently Asked Questions</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
 			<div>
