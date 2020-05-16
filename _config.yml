@@ -3,7 +3,7 @@
 
 title: IntutMI
 url: "https://intutmi.com"
-baseurl:
+baseurl: https://intutmi.com
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
