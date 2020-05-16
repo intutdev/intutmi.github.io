@@ -10,6 +10,8 @@ map:
   zoom: 13
 ---
 
+<div class="map" id="map"></div>
+
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 		<input type="hidden" name="_to" value="contact@intutmi.com" />
@@ -42,8 +44,6 @@ map:
 		<p><a href="mailto:contact@intutmi.com">contact@intutmi.com</a></p>
 	</div>
 </div>
-
-<div class="map" id="map"></div>
 
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
