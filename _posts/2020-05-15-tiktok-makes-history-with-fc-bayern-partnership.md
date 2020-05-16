@@ -4,16 +4,16 @@ title: TikTok makes history with FC Bayern Partnership
 categories:
   - marketing
   - sponsorships
+  - Sports
+  - Germany
+  - Soccer
+  - Football
 author_staff_member: manish
 ---
 
 Just few days ahead of the start of Bundesliga, Bayern FC signed a new sponsorship agreement with social media platform TikTok earlier this week. For Douyin, known as TikTok outside China, becoming an official Bayern Munich sponsor is an excellent opportunity to increase their engagement with fans.
 
-As per the statement given by Felix Loesner, head of social media at FC Bayern Munich, “We saw the power and creativity, and also that it’s something new. It’s something like the old Vine where you can have creative storytelling for a special young audience. This makes the app so interesting for us.”
-
-###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;![](/uploads/1.jpg){: width="333" height="245"}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; source:GETTY
-
-<br>An interesting observation here is that Bayern FC has active presence on TikTok, with half a million video views. In a nutshell, Bayern FC has a strong social media presence, reaching out to 80 million fans. Bayern football players Robert Lewandowski and Thomas Muller already have a strong presence on TikTok. Bayern FC has an excellent opportunity to cash in to their fame and popularity, which will only increase to its social media presence.
+As per the statement given by Felix Loesner, head of social media at FC Bayern Munich, “We saw the power and creativity, and also that it’s something new. It’s something like the old Vine where you can have creative storytelling for a special young audience. This makes the app so interesting for us.”<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;![](/uploads/bayern.jpg){: width="1140" height="641"}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; source: [bundesliga](https://www.bundesliga.com/en/bundesliga/news/bayern-munich-president-hainer-backs-zirkzee-dajaku-batista-meier-singh-breakthrough-9894){: target="_blank"}<br><br>An interesting observation here is that Bayern FC has active presence on TikTok, with half a million video views. In a nutshell, Bayern FC has a strong social media presence, reaching out to 80 million fans. Bayern football players Robert Lewandowski and Thomas Muller already have a strong presence on TikTok. Bayern FC has an excellent opportunity to cash in to their fame and popularity, which will only increase to its social media presence.
 
 ###### ![](/uploads/2.jpg){: width="1020" height="576"}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; source:GETTY
 
