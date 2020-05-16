@@ -8,6 +8,7 @@ categories:
   - Germany
   - Soccer
   - Football
+author_staff_member: manish
 ---
 
 Just few days ahead of the start of Bundesliga, Bayern FC signed a new sponsorship agreement with social media platform TikTok earlier this week. For Douyin, known as TikTok outside China, becoming an official Bayern Munich sponsor is an excellent opportunity to increase their engagement with fans.
