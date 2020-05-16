@@ -1,6 +1,6 @@
 ---
 name: Shikhar Bhatnagar
-position: Co-Founder / Operations Lead
+position: Advisor
 image_path:
 linkedin:
 blurb:
