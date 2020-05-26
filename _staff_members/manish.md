@@ -1,7 +1,7 @@
 ---
 name: Manish Singh
-position: Co-Founder / Insights Lead
-image_path: /images/manish.jpg
+position: Advisor
+image_path:
 linkedin: manish-singh-28270290
 blurb:
 ---
