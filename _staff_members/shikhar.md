@@ -1,7 +1,7 @@
 ---
 name: Shikhar Bhatnagar
 position: Advisor
-image_path: /siteicon.png
+image_path:
 linkedin:
 blurb:
 ---
