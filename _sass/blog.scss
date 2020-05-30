@@ -98,15 +98,15 @@
 .blog-filter {
 	text-align: center;
 	a {
-		background: #eee;
+		background: #6c41e4;
         padding: 3px 5px;
         font-size: .8em;
         border-radius: 5px;
-        color: #6c41e4;
+        color: #888;
 		transition: .2s ease-in-out;
 
 		&:hover {
-			color: #be41e4;
+			background: #be41e4;
 			text-decoration: none;
 		}
 	}
