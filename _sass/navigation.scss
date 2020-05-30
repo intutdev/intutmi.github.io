@@ -33,7 +33,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(108, 65, 228, 1.0);
+		color: rgba(108, 65, 228, 1);
 		transition: .2s ease-in-out;
 		display: none;
 
@@ -63,7 +63,7 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid rgba(108, 65, 228,1.0);
+		border-bottom: 1px solid rgba(108, 65, 228,1);
 		color: #be41e4;
 	}
 
