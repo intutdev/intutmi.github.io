@@ -6,7 +6,7 @@ description: There isn't a brand that is not in our peripheral nor an event in
   analyse the past trend, evaluate the current scenario and predict the future.
 ---
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
+<ul class="staff editable">
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
