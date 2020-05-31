@@ -1,7 +1,7 @@
 ---
 name: Lijo Varghese
-position: Lead Analyst
-image_path: /images/team/placeholder.jpg
+position: MI Lead
+image_path: /images/team/lijo.jpeg
 linkedin:
 blurb:
 ---
