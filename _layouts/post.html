@@ -9,11 +9,22 @@ layout: page
 		{{ content }}
 
 		<div class="author">
-			{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
-			{% assign author = site.staff_members | where: "url", author_id | first %}
-			<p class="name">{{ author.name }}</p>
-			<p class="position">{{ author.position }}</p>
-			<p class="blurb">{{ author.blurb }}</p>
+		{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
+		{% assign author = site.staff_members | where: "url", author_id | first %}
+		    <div class="divTable">
+                <div class="divTableBody">
+                    <div class="divTableRow">
+                        <div class="divTableCell">
+                            <div class="square-image"><img src="{% include relative-src.html src=author.image_path %}" alt="{{ author.name }}"/></div>
+                        </div>
+                        <div class="divTableCell">
+                            <p class="name">{{ author.name }}</p>
+                			<p class="position">{{ author.position }}</p>
+                			<p class="blurb">{{ author.blurb }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 
 		<div class="blog-navigation">
