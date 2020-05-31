@@ -8,8 +8,10 @@
 }
 
 .blog-post {
-	td {
-		text-align:center;
+    .table {
+		padding: 30px 0 0 0;
+		border: 1px solid #eee;
+		margin: 30px 0;
 		font-size: .8em;
 
 		.square-image {
