@@ -22,14 +22,14 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
+			<div class="container editable">
 				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="IntutMI Logo" width="105" height="53" /></a></div>
 				{% include navigation.html %}
 			</div>
 		</header>
 		{{ content }}
 		<footer>
-			<div class="container">
+			<div class="container editable">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
