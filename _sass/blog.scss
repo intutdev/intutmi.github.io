@@ -8,9 +8,12 @@
 }
 
 .blog-post {
-    table.center{
+    table{
+        border: 1px solid #eee;
+        .center{
         margin-left: auto;
         margin-right: auto;
+        }
     }
     td {
 		font-size: .8em;
