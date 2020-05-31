@@ -78,9 +78,9 @@ faq:
 
 {% if page.faq %}
 	<h2>Frequently Asked Questions</h2>
-	<dl class="faq editable">
+	<dl class="faq">
 		{% for item in page.faq %}
-			<div>
+			<div class="editable">
 				<dt>{{ item.question }}</dt>
 				<dd>{{ item.answer }}</dd>
 			</div>
