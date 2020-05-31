@@ -10,7 +10,6 @@ layout: page
 
 	    	<table>
                 <tbody>
-                	<div class="author">
                     <tr>
                    	{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
             		{% assign author = site.staff_members | where: "url", author_id | first %}
@@ -24,7 +23,6 @@ layout: page
                     			{{ author.blurb }}
                 			</p>
                         </td>
-                      </div>
                     </tr>
                 </tbody>
             </table>
