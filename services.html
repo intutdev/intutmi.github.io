@@ -60,7 +60,7 @@ faq:
   - question: Couldn't find what you were looking for?
     answer: Get in touch with us at <a href="mailto:contact@intutmi.com?subject=Pricing%20for%20Nonprofit%20or%20Startups">contact@intutmi.com</a> and let's make it happen!
 ---
-<div class="plans">
+<div class="plans editable">
 	{% for plan in page.services_table %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
@@ -80,7 +80,7 @@ faq:
 	<h2>Frequently Asked Questions</h2>
 	<dl class="faq">
 		{% for item in page.faq %}
-			<div>
+			<div class="editable">
 				<dt>{{ item.question }}</dt>
 				<dd>{{ item.answer }}</dd>
 			</div>
