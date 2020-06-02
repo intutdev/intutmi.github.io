@@ -1,15 +1,21 @@
 ---
-title: Eyes Everywhere
-description: There isn't a brand that is not in our peripheral nor an event in
-  sports and entertainment that we haven't touched. Our aim is to dive as deep
-  as we can into the belly of S&E commerce, to see what has been missed, to
-  analyse the past trend, evaluate the current scenario and predict the future.
+title: It Started With An Idea
+description: >-
+  The foundation of IntutMI was laid over a cup of coffee between two friends
+  who wanted to do something about the brands who miss out on lots of
+  opportunities, either due to the lack of information, or the availability at a
+  very high price.
+
+  In the long, sleepless nights they came together to form a selected bouquet of
+  services which will be all in-house, so that the brands can be served more
+  efficiently.
 ---
+
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
 	{% for person in site.staff_members %}
 		<li>
-			<div class="square-image editable"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+			<div class="square-image editable"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}" /></div>
 			<div class="name editable"><a target="_blank" href="https://linkedin.com/in/{{ person.linkedin }}">{{ person.name }}</a></div>
 			<div class="position editable">{{ person.position }}</div>
 		</li>
